@@ -1,3 +1,4 @@
-article h2, article p{
-    font-family: totallyAwesomeFont, hamFont, serif;
+a {
+    text-decoration: underline
+;
 }
