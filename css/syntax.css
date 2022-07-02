@@ -1,7 +1,14 @@
-.static-width{
-    width: 300px;
-    height: 300px;
-    background: url(https://gdziewpolscenaweekend.pl/wp-content/uploads/2020/03/88241731_845283332582213_7680956797330391040_n.jpg) no-repeat top center;
+#banner{
     background-color: #606060;
-    background-size: 200px;
+    width: 100%;
+    height: 300px;
+    background-image: url(https://gdziewpolscenaweekend.pl/wp-content/uploads/2020/03/88241731_845283332582213_7680956797330391040_n.jpg), url(https://podroze.smcloud.net/t/photos/t/144346/jordania-hammamat-main_1133671.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, top left;
+    background-size: 300px, 100%;
 }
+
+/*
+    https://gdziewpolscenaweekend.pl/wp-content/uploads/2020/03/88241731_845283332582213_7680956797330391040_n.jpg
+    https://podroze.smcloud.net/t/photos/t/144346/jordania-hammamat-main_1133671.jpg
+/*
